@@ -105,10 +105,7 @@ export default function MemoryCard() {
         }
         else
         {
-            const newselectedCard = [...selectedCard];
-
-            newselectedCard.push(name);
-            setSelectedCard(newselectedCard);
+            setSelectedCard([...selectedCard, name]);
         }
 
         // Randomise the CardList Array's Order
@@ -117,7 +114,6 @@ export default function MemoryCard() {
 
 
     function handleTryAgainClick(e: MouseEvent<HTMLAnchorElement>) {
-        console.log("try again - reset");
         e.preventDefault();
         setSelectedCard([]);
         
