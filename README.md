@@ -1,7 +1,17 @@
-## React Memory Card Game
+# React Memory Card Game
 
-A memory card game app built in React, TypeScript, and Tailwind CSS.
+<p>A memory card game, which test the player's memory of previously selected cards. The project is based on <a href="https://www.theodinproject.com/lessons/node-path-react-new-memory-card" target="_blank">2nd assignment of Odin Project's React Course</a>.</p>
 
-The project is for practicing the following features:
-- useEffect
-- API fetching
+<p>Building up from the CV App project, this project features the use of <code>useEffect</code> hook for fetching image URL from an API.</p>
+
+<p><a href="https://memory-card-game-nu-blush.vercel.app/" target="_blank">Live URL</a></p>
+
+## Technologies
+- React
+- TypeScript
+- TailwindCSS
+- JavaScript
+- CSS3
+- HTML5
+- npm
+- Vite
